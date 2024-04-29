@@ -28,3 +28,12 @@ Ejecutar la imagen y correr el contenedor del servidor nats
 ```
 docker run -d --name nats-main -p 4222:4222 -p 8222:8222 nats 
 ```
+
+
+# Prod
+
+Ejecutar la imagen de client-gateway
+
+```
+docker build -f dockerfile.prod -t client-gateway .
+```
